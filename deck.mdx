@@ -1,5 +1,8 @@
 import { themes, Image, Appear, Notes, Split } from 'mdx-deck'
 import Iframe from './components/Iframe' 
+import { Box } from 'rebass'
+
+
 export const theme = themes.code
 
 
@@ -15,30 +18,31 @@ export const theme = themes.code
 
 How can we help our customers make informed decisions that line up with the bank's sustainability goals?
 
----
 
-Prototype
-<Iframe />
 ---
 
 ## Video ⇾ why is carbon a problem
 ://www.renderforest.com/watch-23052863
 
 ---
-
-## Introducing Footprint
+<Box 
+  width={[ 4, 2, 3/4 ]} bg='background' p='4' color="black">
+    <center>
+      <h6>Introducing Footprint
 1.  An app connected to a customer’s bank account via open banking. 
 2.  By categorizing transactions we can estimate the CO2 linked to each 
 3.  Presenting this information through a variety of easy to understand methods like:
       You have used 20% less than average for someone living in your area 
       Your emissions are equivalent to flying New York – London 2.5x  
 4.  Offer advice on how to change habits and options to Offset
-       Donations/volunteering opportunities
-                                                                                     
-                                                                                     
-                                                                                     ...Shall we take a look
-
+       Donations/volunteering opportunities. ...Shall we take a look</h6>
+    </center>    
+</Box>
 
 ---
 
+Prototype
+<Iframe />
+
+---
 ## Feedback

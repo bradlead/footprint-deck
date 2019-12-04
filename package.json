@@ -13,7 +13,8 @@
   },
   "dependencies": {
     "@mdx-deck/themes": "^3.0.8",
-    "react": "^16.9.0"
+    "react": "^16.9.0",
+    "rebass": "^4.0.7"
   },
   "author": "",
   "license": "ISC"
