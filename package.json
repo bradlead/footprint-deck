@@ -1,0 +1,19 @@
+{
+  "name": "footprint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "mdx-deck deck.mdx",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "mdx-deck": "^3.0.9"
+  },
+  "dependencies": {
+    "@mdx-deck/themes": "^3.0.8",
+    "react": "^16.9.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
