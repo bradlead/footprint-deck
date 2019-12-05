@@ -1,50 +1,63 @@
 import { themes, Image, Appear, Notes, Split } from 'mdx-deck'
 import Iframe from './components/Iframe' 
 import { Box, Button, Link } from 'rebass'
+import { Avatar, Container, Paper } from '@material-ui/core';
+
+export const theme = themes.dark
+
+import './styling/deck-style.css';
 
 
-export const theme = themes.code
 
 
-# Footprint
-### Team 19: Brad, Kitty, Iain, Mary, Jack & Zanang
----
+## Footprint
 
-## UN Secretary General Statement
-
----
-
-## How important is climate change to us?
-
----
-
-How can we help our customers make informed decisions that line up with the bank's sustainability goals?
+<div className="avatar">
+    <Avatar src="https://i.ibb.co/R3NCpn3/Whats-App-Image-2019-12-05-at-14-14-40.jpg" />
+    <Avatar src="https://i.ibb.co/9btk21P/Whats-App-Image-2019-12-05-at-13-21-23.jpg" />
+    <Avatar src="https://i.ibb.co/4ThmDvY/Whats-App-Image-2019-12-05-at-13-22-49.jpg" />
+    <Avatar src="https://i.ibb.co/0Q7Rhhw/Whats-App-Image-2019-12-05-at-13-34-15.jpg" />
+    <Avatar src="https://i.ibb.co/0ntLktr/Whats-App-Image-2019-12-05-at-14-12-04.jpg" />
+    <Avatar src="https://i.ibb.co/Q9Fpsxk/17438742-1659191821052056-4199731567351824384-n.jpg" />
+</div>
+<div className="team">Team 19: Iain, Jack, Mary, Kitty, Zanang & Brad</div>
 
 
----
-
-## Video ⇾ why is carbon a problem
-://www.renderforest.com/watch-23052863
 
 ---
+
+
+UN Secretary General Statement (Antonio Guterres)
+"The point of no return for climate change is no longer over the horizon 
+
+<img src="https://i.ibb.co/b36fYwX/Antonio-Guterres.jpg" alt="Antonio-Guterres" border="0" />
+
+---
+
+<img src="https://www.universityofcalifornia.edu/sites/default/files/climate_headlines2.jpg" alt="Antonio-Guterres" border="0" />
+
+---
+
+Survey results
+
+
+---
+
+##### "We know our customers want to better understand their environmental impact, but how can we source the right data to help them make informed decisions?"
+
+---
+
+## Introducing Footprint
+  
 <Box 
-  width={[ 4, 2, 3/4 ]} bg='background' p='4' color="black">
-    <center>
-      <h6>Introducing Footprint
-1.  An app connected to a customer’s bank account via open banking. 
-2.  By categorizing transactions we can estimate the CO2 linked to each 
-3.  Presenting this information through a variety of easy to understand methods like:
-      You have used 20% less than average for someone living in your area 
-      Your emissions are equivalent to flying New York – London 2.5x  
-4.  Offer advice on how to change habits and options to Offset
-       Donations/volunteering opportunities. ...Shall we take a look</h6>
-    </center>    
+  width={[ 10, 2, 3/4 ]} bg='background' p='4' fontsize='5' color="black">
+    <p>
+      An app connected to a customer’s bank account via open banking. 
+      Categorized transactions so we can estimate the CO2 linked to each.
+      Provide steps to reduce their impact and benchmark their performance.
+    </p>    
 </Box>
 
-
----
-<iframe width="640" height="360" src="https://miro.com/app/embed/o9J_kvnOgo0=/?" frameborder="0" scrolling="no" allowfullscreen></iframe>
----
 ---
 
 <Link href='http://team19-challenge2019.s3-website-eu-west-1.amazonaws.com'>Proto-type</Link>
@@ -52,4 +65,76 @@ How can we help our customers make informed decisions that line up with the bank
 <Iframe />
 
 ---
+
 ## Feedback
+
+- Consumer feedback on MVP
+- Sustainability team ⇾ quotes? On Screen
+- Comms with working group? ⇾ do we want to include?
+- Other feedback?
+
+---
+
+
+<iframe width="640" height="360" src="https://miro.com/app/embed/o9J_kvnOgo0=/?" frameborder="0" scrolling="no" allowfullscreen></iframe>
+
+---
+
+## Business Model/ roadmap
+- Cost of setup
+- Budget
+- Risks
+- The ask
+
+---
+
+## Areas of Opportunity
+* Education
+* Market Scope
+* Stakeholder Engagement & Net Promoter Score
+* RBS Vision = Purpose Led Bank
+
+---
+
+## What's been done so far?
+<Box
+  p={4}
+  fontSize={3}
+  width={[ 1, 1, 4/5 ]}
+  color='black'
+  bg='green'>
+  Bank of Aland
+  90,000 customers 
+  2016: Introduced the Aland Index
+  2 years on improved their carbon footprint by 14%
+</Box>
+
+<Box
+  p={4}
+  fontSize={3}
+  width={[ 1, 1, 4/5 ]}
+  color='black'
+  bg='yellow'>
+Royal Bank of Scotland
+18.9million customers across the globe 
+Core strengths: digitalisation, understanding customer, education enterprise and sustainability
+ = far reaching success
+</Box>
+
+<Box
+  p={4}
+  fontSize={3}
+  width={[ 1, 1, 4/5 ]}
+  color='black'
+  bg='orange'>
+  Simon Watson "Three things we need to do to help customers manage their carbon footprint. 
+  1. Give better information about their carbon footprint
+  2. Nudge customers to make changes in their daily lives
+  3. Educate and create awareness. When our customers make life choices how can we provide advice and guidance."
+</Box>
+
+---
+
+### Q&A
+
+---

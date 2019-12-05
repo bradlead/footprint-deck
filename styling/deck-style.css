@@ -1,0 +1,16 @@
+.avatar {
+    display: flex;
+}
+
+.team {
+    display: center;
+    text-align: center;
+    width: 600px;
+    margin-top: 50px;
+}
+.team-name {
+    display: center;
+    text-align: center;
+    width: 600px;
+}
+
