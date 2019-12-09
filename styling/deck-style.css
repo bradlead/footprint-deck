@@ -17,5 +17,60 @@
 .quote-un {
     display: center;
     text-align: center;
+    width: 950px;
+}
+
+.Chart-text {
+    text-align: center;
+    width: 900px;
+}
+
+.problem {
+    text-align: center;
     width: 700px;
+}
+
+.kirsty-avatar { 
+    display: left;
+    margin-right: 800px
+}
+
+.quotes-kirsty {
+    width: 700px;
+    text-align: left;
+    font-size: 30px;
+    margin-top: -40px
+}
+
+.quote-text {
+    width: 700px;
+    text-align: left;
+    font-size: 28px;
+}
+
+.quotes-matt {
+    width: 700px;
+    text-align: left;
+    font-size: 30px;
+    margin-top:60px;
+}
+
+.quotes-Jane {
+    width: 700px;
+    text-align: left;
+    font-size: 30px;
+    margin-top:60px;
+
+}
+
+.bizz-model {
+    width: 900px;
+    font-size: 30px;
+    text-align: left;
+}
+
+.mvp {
+    width: 700px;
+    text-align: center;
+    font-size: 30px;
 }
