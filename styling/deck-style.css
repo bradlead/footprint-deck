@@ -20,6 +20,13 @@
     width: 950px;
 }
 
+.un-title {
+    display: center;
+    text-align: center;
+    width: 950px;
+    font-size: 28px;
+}
+
 .Chart-text {
     text-align: center;
     width: 900px;
@@ -72,5 +79,11 @@
 .mvp {
     width: 700px;
     text-align: center;
+    font-size: 30px;
+}
+
+.costing {
+    width: 800px;
+    text-align: left;
     font-size: 30px;
 }
