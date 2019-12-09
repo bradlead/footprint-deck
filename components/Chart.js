@@ -1,4 +1,4 @@
-import React, {component} from 'React'
+import React, {component} from 'react'
 import { BarChart, Bar, XAxis, YAxis, LabelList, Text, Tooltip, CartesianGrid, Legend } from 'recharts';
 
 const data = [{name: 'Never', votes: 43}, {name: 'Some', votes: 30}, {name: 'Often', votes: 4}, {name: 'Always', votes: 2}];
